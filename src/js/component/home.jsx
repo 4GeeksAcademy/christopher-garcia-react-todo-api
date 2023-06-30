@@ -25,9 +25,8 @@ const Home = () => {
 				</li>
 				))}
 			</ul>
-			<div>{todos.length} tasks left</div>
-		</div>
-	
+			<div>{todos.length ?  `${todos.length} tasks to do` : 'Add tasks!!'}</div>
+	</div>
 	);	
 };
 
